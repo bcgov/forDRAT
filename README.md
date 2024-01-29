@@ -4,6 +4,8 @@
   - [Overview](#overview)
   - [Installation](#installation)
   - [Introduction](#introduction)
+  - [Data](#data)
+  - [Functions](#functions)
   - [Additional details](#additional-details)
     - [Literature cited](#literature-cited)
 
@@ -55,12 +57,30 @@ forests across different tree species, biogeoclimatic units and relative
 soil moisture regimes. The modeling approach is described in [DeLong et
 al. (2019)](https://www.for.gov.bc.ca/hfd/pubs/Docs/Tr/TR125.pdf).
 
+## Data
+
+The package contains two datasets:
+
+1.  *drought_data* data frame which contains estimated mean annual
+    AET:PET for xeric to subhygric sites in 210 BGC variants, for four
+    different time periods.
+2.  *tree_risk* data frame which contains estimated estimated AET:PET
+    thresholds for different tree species, based on distribution of
+    trees species across actual soil moisture regimes, and field
+    observations.
+
+## Functions
+
+The main function in this package is *classify_tree_risk* which is used
+to generate species-specific drought risk ratings for sites with AET:PET
+estimates.
+
 ## Additional details
 
 The drought risk estimates were generated using a water-balance modeling
 approach as implemented in the Tree and Climate Assessment (TACA) model
-developed by \[Nitschke and Innes (2008)\]
-(<https://www.sciencedirect.com/science/article/abs/pii/S0304380007004061?via%3Dihub>).
+developed by [Nitschke and Innes
+(2008)](https://www.sciencedirect.com/science/article/abs/pii/S0304380007004061?via%3Dihub).
 
 The TACA model uses daily climate data, which is sparse in the province.
 In order to provide drought-risk estimates for all biogeoclimatic units
@@ -73,6 +93,11 @@ information and dataset download are available
 dataset was used in TACA and forDRAT.*
 
 ### Literature cited
+
+DeLong, S.C., Griesbauer, H., Nitschke, C.R., Foord, V. and Rogers, B.,
+2019. Development of a drought risk assessment tool for British Columbia
+forests using a stand-level water-balance approach. Prov. BC, Victoria.
+BC Tech. Rep. 125. www. for. gov. bc. ca/hfd/pubs/Docs/Tr/Tr125. htm.
 
 Nitschke, C.R. and Innes, J.L., 2008. A tree and climate assessment tool
 for modelling ecosystem response to climate change. Ecological
