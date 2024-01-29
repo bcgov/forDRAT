@@ -73,7 +73,7 @@ The main function in this package is *classify_tree_risk* which is used to gener
 
 The drought risk estimates were generated using a water-balance modeling approach as implemented in the Tree and Climate Assessment (TACA) model developed by [Nitschke and Innes (2008)](https://www.sciencedirect.com/science/article/abs/pii/S0304380007004061?via%3Dihub).  
 
-The TACA model uses daily climate data, which is sparse in the province.  In order to provide drought-risk estimates for all biogeoclimatic units in the province, we used the PNWNAmet gridded daily climate dataset, developed by [Werner et al. (2019)](https://www.nature.com/articles/sdata2018299).  More information and dataset download are available [here](https://www.pacificclimate.org/data/daily-gridded-meteorological-datasets).  *We plan to publish an extension note that details how the PNWNAmet dataset was used in TACA and forDRAT.*
+The TACA model uses daily climate data, which are sparse in the province.  In order to provide drought-risk estimates for all biogeoclimatic units in the province, we used the PNWNAmet gridded daily climate dataset, developed by [Werner et al. (2019)](https://www.nature.com/articles/sdata2018299).  More information and dataset download are available [here](https://www.pacificclimate.org/data/daily-gridded-meteorological-datasets).  *We plan to publish an extension note that details how the PNWNAmet dataset was used in TACA and forDRAT.*
 
 
 ### Literature cited
