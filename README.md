@@ -28,27 +28,8 @@ See the License for the specific language governing permissions and limitations 
 
 ## Overview
 
-bcgov/forDRAT is an R package developed by the BC Ministry of Forests to
-share information about historical and projected future drought risk in
+bcgov/forDRAT contains data developed by the BC Ministry of Forests of historical and projected future drought risk in
 mature forests in the province.
-
-## Installation
-
-You can install `forDRAT` directly from this GitHub repository. To
-proceed, you will need the
-[remotes](https://cran.r-project.org/package=remotes) package:
-
-``` r
-install.packages("remotes")
-```
-
-Next, install and load the `forDRAT` package using
-`remotes::install_github()`:
-
-``` r
-remotes::install_github("bcgov/forDRAT")
-library(forDRAT)
-```
 
 ## Introduction
 
