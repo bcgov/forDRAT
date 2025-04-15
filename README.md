@@ -1,12 +1,3 @@
----
-output: 
-  github_document: 
-    toc: TRUE
-editor_options: 
-  markdown: 
-    wrap: sentence
----
-
 ```{=html}
 <!--
 Copyright 2024 Province of British Columbia
