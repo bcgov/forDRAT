@@ -53,7 +53,7 @@ The TACA model uses daily climate data, which are sparse in the province.  In or
 
 ### Literature cited
 
-DeLong, S.C., Griesbauer, H., Nitschke, C.R., Foord, V. and Rogers, B., 2019. Development of a drought risk assessment tool for British Columbia forests using a stand-level water-balance approach. Prov. BC, Victoria. BC Tech. Rep. 125. www. for. gov. bc. ca/hfd/pubs/Docs/Tr/Tr125. htm.
+DeLong, S.C., Griesbauer, H., Nitschke, C.R., Foord, V. and Rogers, B., 2019. Development of a drought risk assessment tool for British Columbia forests using a stand-level water-balance approach. Prov. BC, Victoria. BC Tech. Rep. 125. [download](https://www.for.gov.bc.ca/hfd/pubs/Docs/Tr/TR125.pdf)
 
 Nitschke, C.R. and Innes, J.L., 2008. A tree and climate assessment tool for modelling ecosystem response to climate change. Ecological modelling, 210(3), pp.263-277. doi:10.1016/j.ecolmodel.2007.07.026
 
