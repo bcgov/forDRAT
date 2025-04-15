@@ -1,12 +1,3 @@
----
-output: 
-  github_document: 
-    toc: TRUE
-editor_options: 
-  markdown: 
-    wrap: sentence
----
-
 ```{=html}
 <!--
 Copyright 2024 Province of British Columbia
@@ -25,13 +16,6 @@ See the License for the specific language governing permissions and limitations 
 <!-- Edit the README.Rmd only!!! The README.md is generated automatically from README.Rmd. -->
 
 # bcgov/forDRAT: BC forest drought risk assessment tool
-
-```{r, echo = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>"
-)
-```
 
 
 [![img](https://img.shields.io/badge/Lifecycle-Experimental-339999)](https://github.com/bcgov/repomountie/blob/master/doc/lifecycle-badges.md) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
