@@ -41,7 +41,7 @@ The file contains the following columns:
 3. SMR_text - text description of relative soil moisture regime (RSMR), ranging from xeric to subhygric.  Sites with RSMR wetter than subhygric are not considered in this model.
 4. SMR- integer description of RSMR, with 1 = xeric; 2 = subxeric; and so on.
 5. AET_PET - the mean annual ratio between actual and potential evapotranspiration.  See [DeLong et al. (2019)](https://www.for.gov.bc.ca/hfd/pubs/Docs/Tr/TR125.pdf) for details.
-6. The remaining columns describe drought risk by tree species.  Each column name represents a tree species code, with codes being listed [here](https://www2.gov.bc.ca/gov/content/industry/forestry/managing-our-forest-resources/tree-seed/tree-seed-centre/seed-testing/codes).  The following drought risk codes are used; (i) L = low; (ii) M = moderate; (iii) H = high; and (iv) VH = very high.
+6. The remaining columns describe drought risk by tree species.  Each column name represents a tree species code, with codes being listed [here](https://www2.gov.bc.ca/gov/content/industry/forestry/managing-our-forest-resources/tree-seed/tree-seed-centre/seed-testing/codes).  *Please note that forDRAT currently only considers interior species*. The following drought risk codes are used; (i) L = low; (ii) M = moderate; (iii) H = high; and (iv) VH = very high.
 
 
 ## Additional details
@@ -53,7 +53,7 @@ The TACA model uses daily climate data, which are sparse in the province.  In or
 
 ### Literature cited
 
-DeLong, S.C., Griesbauer, H., Nitschke, C.R., Foord, V. and Rogers, B., 2019. Development of a drought risk assessment tool for British Columbia forests using a stand-level water-balance approach. Prov. BC, Victoria. BC Tech. Rep. 125. [download](https://www.for.gov.bc.ca/hfd/pubs/Docs/Tr/TR125.pdf)
+DeLong, S.C., Griesbauer, H., Nitschke, C.R., Foord, V. and Rogers, B., 2019. Development of a drought risk assessment tool for British Columbia forests using a stand-level water-balance approach. Prov. BC, Victoria. BC Tech. Rep. 125. [Download here](https://www.for.gov.bc.ca/hfd/pubs/Docs/Tr/TR125.pdf)
 
 Nitschke, C.R. and Innes, J.L., 2008. A tree and climate assessment tool for modelling ecosystem response to climate change. Ecological modelling, 210(3), pp.263-277. doi:10.1016/j.ecolmodel.2007.07.026
 
